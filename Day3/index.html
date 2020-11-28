@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>My page title</title>
+  </head>
+
+  <body>
+    <p>
+      Qalinkaa wax suureeya <br />
+      Kugu sima halkaad doonto <br />
+      Saaxiib Kal furan weeye <br />
+      Sunto gacan ku hayntiisa
+    </p>
+    <pre>
+      Qalinkaa wax suureeya 
+      Kugu sima halkaad doonto 
+      Saaxiib Kal furan weeye 
+      Sunto gacan ku hayntiisa
+    </pre>
+    <p>- <q>Hadraawi</q></p>
+
+    <h2>How to display files in Linux</h2>
+    <ul>
+      <li>open terminal</li>
+      <li>type <code>ls -h </code></li>
+    </ul>
+    <pre>
+       <samp style="background: #ccc">
+        6/3/2020   4:18 PM                Local Settings
+        d--h--         8/15/2019  11:53 AM                MicrosoftEdgeBackups
+        d--hsl          6/3/2020   4:18 PM                My Documents
+        d--hsl          6/3/2020   4:18 PM                NetHood
+        d--hsl          6/3/2020   4:18 PM                PrintHood
+        d--hsl          6/3/2020   4:18 PM                Recent
+        d--hsl          6/3/2020   4:18 PM                SendTo
+        d--hsl          6/3/2020   4:18 PM                Start Menu
+       </samp>
+     </pre>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    <details open>
+      <summary>What is HTML?</summary>
+      Hypertext Markup Language (HTML) is the standard markup language for
+      documents designed to be displayed in a web browser.
+    </details>
+    <details>
+      <summary>What is CSS?</summary>
+      Cascading Style Sheets is a style sheet language used for describing the
+      presentation of a document written in a markup language such as HTML.
+    </details>
+    <h2>HTML Table</h2>
+    <table>
+      <caption>
+        Student Data
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Shift</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Axmed</td>
+          <td>Web Development</td>
+          <td>Afternoon</td>
+        </tr>
+        <tr>
+          <td>Hamda</td>
+          <td>Digital Marketing</td>
+          <td>Morning</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Order Description</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>SN</th>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Flash</td>
+          <td>2</td>
+          <td>3</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Mobile</td>
+          <td>200</td>
+          <td>2</td>
+          <td>400</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Head Phone</td>
+          <td>5</td>
+          <td>4</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Remote</td>
+          <td>15</td>
+          <td>1</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Shoes</td>
+          <td>20</td>
+          <td>1</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td colspan="3">Total</td>
+          <td>$461</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>HTML Forms</h2>
+    <form>
+      <!-- personal info start -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="fname">First Name</label>
+          <input id="fname" type="text" />
+        </div>
+        <div>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="number" id="phone" />
+        </div>
+        <div>
+          <label for="date">Registered Date</label>
+          <input type="date" id="date" />
+        </div>
+        <div>
+          <label for="male">Male</label>
+          <input id="male" name="gender" type="radio" />
+        </div>
+
+        <div>
+          <label for="female">Female</label>
+          <input id="female" name="gender" type="radio" />
+        </div>
+      </fieldset>
+      <!-- personal info end -->
+
+      <!-- course start -->
+      <fieldset>
+        <legend>Course Selection</legend>
+
+        <div>
+          <label for="html">HTML</label>
+          <input id="html" type="checkbox" />
+          <label for="css">CSS</label>
+          <input id="css" type="checkbox" />
+          <label for="js">Javascript</label>
+          <input id="js" type="checkbox" />
+          <label for="react">React JS</label>
+          <input id="react" type="checkbox" />
+        </div>
+        <div>
+          <label for="comment">Post Your Comment</label><br />
+          <textarea id="comment"></textarea>
+        </div>
+      </fieldset>
+
+      <!-- course end -->
+      <fieldset>
+        <legend>Personal Choice</legend>
+        <div>
+          <label for="select">Select Language</label>
+          <select name="" id="select">
+            <option value="">Python</option>
+            <option value="">PHP</option>
+            <option value="">Javascript</option>
+            <option value="">Node JS</option>
+          </select>
+        </div>
+        <div>
+          <label for="ice-cream-choice">Choose a flavor:</label>
+          <input
+            list="ice-cream-flavors"
+            id="ice-cream-choice"
+            name="ice-cream-choice"
+          />
+          <datalist id="ice-cream-flavors">
+            <option value="Chocolate"></option>
+            <option value="Coconut"></option>
+            <option value="Mint"></option>
+            <option value="Strawberry"></option>
+            <option value="Vanilla"></option>
+          </datalist>
+        </div>
+        <div>
+          <label for="color">Favorite Color</label>
+          <input id="color" type="color" />
+        </div>
+      </fieldset>
+      <br />
+      <div>
+        <button type="sumbit">Register</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
