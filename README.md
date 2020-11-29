@@ -7,4 +7,4 @@ Materials are grouped into class days - each day has its own folder eg. Day1 Fol
 
 ### Join the WhatsApp Group of the Class 
 
-[https://chat.whatsapp.com/J4ilA00xnqNJ53AqyjQAl7](WhatsApp Group)
+Please Join (WhatsApp Group](https://chat.whatsapp.com/J4ilA00xnqNJ53AqyjQAl7)
