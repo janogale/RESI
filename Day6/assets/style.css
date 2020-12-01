@@ -1,0 +1,36 @@
+/* main style */
+
+/* body {
+    background: #090;
+    color: #fff;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+.highlight {
+    background: lightblue
+}
+
+.title {
+    color: green;
+    font-size: 18px;
+}
+
+/* #par1{
+    color: red;
+} */
+
+[id=item] {
+    color: blue;
+    text-decoration: underline;
+}
+
+[href$=".com"] {
+    color: red;
+    font-size: 16;
+    text-decoration: none;
+}

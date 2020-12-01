@@ -1,0 +1,22 @@
+[href$=".html"]{
+    color: blue;
+    text-decoration: none;
+}
+
+[href^="#"]{
+    color: darkblue;
+}
+
+
+[href^="http"]{
+    color: red;
+}
+
+[href^="https"]{
+    color: green;
+}
+
+[href*="bad"]{
+    color: brown;
+    display: none;
+}
