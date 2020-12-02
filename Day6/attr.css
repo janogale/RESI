@@ -1,21 +1,24 @@
-[href$=".html"]{
+/* ends with $ */
+[href$=".html"]{  
     color: blue;
     text-decoration: none;
 }
 
+/* starts with ^ */
 [href^="#"]{
     color: darkblue;
 }
 
-
+/* starts with ^ */
 [href^="http"]{
     color: red;
 }
 
+/* starts with $ */
 [href^="https"]{
     color: green;
 }
-
+/* value contains */
 [href*="bad"]{
     color: brown;
     display: none;
