@@ -1,0 +1,43 @@
+
+html {
+    font-size: 10px;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+
+    background: purple;
+   height: 50vh;
+   text-align: center;
+}
+
+
+h1 {
+
+    font-size: 5rem;
+}
+
+
+section h2 {
+    font-size: 3rem;
+}
+
+.sec1 {
+
+    background-color: brown;
+    height: 20vh;
+    width: 49vw;
+    display: inline-block;
+}
+
+.sec2 {
+
+    background-color: green;
+    height: 20vh;
+    width: 49vw;
+    display: inline-block;
+}

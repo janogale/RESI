@@ -1,0 +1,88 @@
+/* root element */
+/* default root element size: 16px */
+
+html {
+font-size: 10px;
+}
+
+
+body {
+    padding: 20px 80px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Scoring - Ranking 
+  h2 {
+      color: black !important;
+      font-size: 25px !important ;
+  }
+
+ 0021 
+   .title.title {
+      color: green;
+      font-size: 20px;
+  }
+
+  
+  0010
+  
+  h2.title {
+    color: red;
+font-size: 16px;
+}
+
+
+  0001
+
+h2 {
+
+    color: blue;
+    font-size: 12px;
+} 
+
+
+*/
+
+nav {
+    font-size: 10px;
+}
+
+ul {
+
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+p {
+
+    font-size: 1.6rem;
+}
+
+
+/* em  parent value * value = px */
+
+
+
+
+
+
+.outer {
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+
+
+/* rem most used */
