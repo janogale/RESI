@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            background: #eee;
+            height: 100vh;
+        }
+
+        .left {
+            background: purple;
+            flex-basis: 100px;
+        }
+        .main {
+            background: #090;
+            flex-grow: 4;
+        }
+        .right {
+            background: brown;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">left side</div>
+        <div class="main"><h1>Main content</h1></div>
+        <div class="right"> <h2>Side Content</h2></div>
+    </div>
+</body>
+</html>

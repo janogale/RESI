@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layout</title>
+
+    <style>
+      .box {
+        border: 1px solid grey;
+        position: absolute;
+        background: red;
+        top: 10px;
+        left: 50%;
+      }
+
+      .wrapper {
+        background: lightblue;
+        height: 50px;
+        position: relative;
+      }
+     
+
+      .title {
+        background: #ccc;
+        position: sticky;
+        top: 0;
+      }
+
+      .boxes {
+        position: relative;
+      }
+
+      .boxes div {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: 1px solid black;
+      }
+
+      .box1,
+      .box2,
+      .box3 {
+        position: relative;
+      }
+
+      .box1 {
+        background: #090;
+        z-index: 10;
+      }
+
+      .box2 {
+        left: 20px;
+        top: -20px;
+        background: brown;
+        z-index: 5;
+      }
+
+      .box3 {
+        left: 40px;
+        top: -40px;
+        background: blue;
+      }
+
+      .img1 {
+        width: 200px;
+        float: left;
+        margin: 10px;
+      }
+
+      .img2 {
+        width: 200px;
+        float: right;
+        margin: 10px;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+header {
+    display: flex;
+    justify-content: space-around;
+    background: #ccc;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul li {
+
+    list-style: none;
+    margin-left: 10px
+}
+
+.item3{
+    order: -3;
+}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Layout</h1>
+      <nav>
+        <ul>
+          <li class="home"><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li class="item3"><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <div class="box">Box1</div>
+    </div>
+    <h2 class="subtitle">Introduction to CSS Layout</h2>
+    <section>
+      <h2 class="title">Article 1</h2>
+      <p class="clearfix">
+        <img class="img1" src="./images/css.webp" alt="" />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+        officia error in hic laboriosam qui! Esse unde asperiores, tempora iste
+        est recusandae non error enim aut magni ut nisi architecto id aperiam
+        consequuntur perferendis odio ratione et rerum. Sed eius deserunt
+        repellendus, vitae aut ex cumque exercitationem laboriosam nemo.
+      </p>
+      <p class="clearfix">
+        <img class="img2" src="./images/hadraawi.jpg" alt="" />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+        officia error in hic laboriosam qui! Esse unde asperiores, tempora iste
+        est recusandae non error enim aut magni ut nisi architecto id aperiam
+        consequuntur perferendis odio ratione et rerum. Sed eius deserunt
+        repellendus, vitae aut ex cumque exercitationem laboriosam nemo. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Dicta magnam a
+        molestias enim dolor modi maxime rerum molestiae libero tenetur vel
+        vero, nihil neque nostrum amet officia. Deleniti eligendi accusamus
+        ipsum incidunt excepturi distinctio aliquam ab facere laudantium?
+        Ratione, nostrum!
+      </p>
+
+      <p class="clearfix">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ea
+        libero adipisci aspernatur esse impedit deserunt? Obcaecati, amet. Atque
+        eos cumque quos corrupti quo placeat maxime iure, velit totam aperiam a
+        blanditiis at pariatur impedit saepe non accusamus. Corporis, modi.
+      </p>
+    </section>
+    <section>
+      <h2 class="title">Article 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+        officia error in hic laboriosam qui! Esse unde asperiores, tempora iste
+        est recusandae non error enim aut magni ut nisi architecto id aperiam
+        consequuntur perferendis odio ratione et rerum. Sed eius deserunt
+        repellendus, vitae aut ex cumque exercitationem laboriosam nemo.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+        officia error in hic laboriosam qui! Esse unde asperiores, tempora iste
+        est recusandae non error enim aut magni ut nisi architecto id aperiam
+        consequuntur perferendis odio ratione et rerum. Sed eius deserunt
+        repellendus, vitae aut ex cumque exercitationem laboriosam nemo.
+      </p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ea
+        libero adipisci aspernatur esse impedit deserunt? Obcaecati, amet. Atque
+        eos cumque quos corrupti quo placeat maxime iure, velit totam aperiam a
+        blanditiis at pariatur impedit saepe non accusamus. Corporis, modi.
+      </p>
+    </section>
+
+    <section class="boxes">
+      <div class="box1">box 1</div>
+      <div class="box2">Box 2</div>
+      <div class="box3">Box 3</div>
+    </section>
+
+    <div style="height: 400px"></div>
+  </body>
+</html>
