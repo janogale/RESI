@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Functions</title>
+  </head>
+  <body>
+    <h1>Browser Functions</h1>
+
+    <script>
+      //alert("Your data is saved");
+      console.log("after alert function");
+      let name = prompt("What is your Name?", "Visitor");
+
+      if (!name) {
+        console.log("Sorry we can't find your identity");
+      } else {
+        console.log(`Welcome ${name} to my site`);
+      }
+
+      window.addEventListener("beforeunload", (event) => {
+        // Cancel the event as stated by the standard.
+        event.preventDefault();
+        // Older browsers supported custom message
+        event.returnValue = "";
+      });
+    </script>
+  </body>
+</html>
