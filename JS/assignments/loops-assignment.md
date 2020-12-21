@@ -75,7 +75,7 @@
 
 ### Exercises: Level 2
     
-      ```js
+```js
   const countries = [
     'Albania',
     'Bolivia',
@@ -100,9 +100,8 @@
     'MongoDB'
   ]
 
-  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
-  
-  ```
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node']  
+```
 
 
 1. Using the above countries array, create the following new array.
