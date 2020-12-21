@@ -2,31 +2,6 @@
 
 ### Exercise: Level 1
 
-```js
-const countries = [
-  'Somaliland',
-  'Somalia',
-  'Jabouti',
-  'Ethiopia',
-  'Kenya',
-  'Denmark',
-  'Finland',
-  'Germany',
-  'Ireland',
-  'Japan',  
-]
-
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
-```
-
 1. Declare an _empty_ array;
 2. Declare an array with more than 5 number of elements
 3. Find the length of your array
@@ -53,7 +28,32 @@ const webTechs = [
 
 ### Exercise: Level 2
 
-1. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
+```js
+const countries = [
+  'Somaliland',
+  'Somalia',
+  'Jabouti',
+  'Ethiopia',
+  'Kenya',
+  'Denmark',
+  'Finland',
+  'Germany',
+  'Ireland',
+  'Japan',  
+]
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+```
+
+1. Create a separate countries.js file and store the countries array in to above, create a separate file web_techs.js and store the webTechs array above. Access both file in main.js file
 1. First remove all the punctuations and change the string to array and count the number of words in the array
 
     ```js
