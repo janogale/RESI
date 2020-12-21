@@ -74,7 +74,6 @@
 
 
 ### Exercises: Level 2
-
     
       ```js
   const countries = [
@@ -102,6 +101,7 @@
   ]
 
   const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+  
   ```
 
 
