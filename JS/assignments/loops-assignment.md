@@ -1,35 +1,7 @@
 
-## 💻 Exercises:Day 6
+##  JS Loops - Challenges.
 
 ### Exercises: Level 1
-
-  ```js
-  const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ]
-
-  const webTechs = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB'
-  ]
-
-  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
-  ```
 
 1. Iterate 0 to 10 using for loop, do the same using while and do while loop
 2. Iterate 10 to 0 using for loop, do the same using while and do while loop
@@ -131,6 +103,35 @@
     ```sh
     rgb(240,180,80)
     ```
+    
+      ```js
+  const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+
+  const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+  ```
+
 
 1. Using the above countries array, create the following new array.
 
