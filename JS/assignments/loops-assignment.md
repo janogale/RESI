@@ -108,7 +108,20 @@
 1. Using the above countries array, create the following new array.
 
     ```sh
-    ["Somaliland", "ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+    [
+    "Somaliland",
+    "ALBANIA", 
+    "BOLIVIA",
+    "CANADA",
+    "DENMARK",
+    "ETHIOPIA",
+    "FINLAND",
+    "GERMANY",
+    "HUNGARY",
+    "IRELAND",
+    "JAPAN",
+    "KENYA"
+    ]
     ```
 
 2. Using the above countries array, create an array for countries length'.
@@ -151,7 +164,7 @@
 6. Using the above countries array, find the country containing the biggest number of characters.
 
       ```sh
-      Ethiopia
+      Somaliland
       ```
 
 7. Using the above countries array, find the country containing only 5 characters.
