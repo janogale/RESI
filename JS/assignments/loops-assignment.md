@@ -77,6 +77,7 @@
     
 ```js
   const countries = [
+    'Somaliland',
     'Albania',
     'Bolivia',
     'Canada',
@@ -107,19 +108,20 @@
 1. Using the above countries array, create the following new array.
 
     ```sh
-    ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+    ["Somaliland", "ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
     ```
 
 2. Using the above countries array, create an array for countries length'.
 
     ```sh
-    [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+    [10, 7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
     ```
 
 3. Use the countries array to create the following array of arrays:
 
     ```sh
       [
+      ['Somaliland', 'SOM', 10],
       ['Albania', 'ALB', 7],
       ['Bolivia', 'BOL', 7],
       ['Canada', 'CAN', 6],
@@ -137,7 +139,7 @@
 4. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 
     ```sh
-    ['Finland', 'Iceland']
+    ['Somaliland', 'Finland', 'Iceland']
     ```
 
 5. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
