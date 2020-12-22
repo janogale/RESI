@@ -98,9 +98,11 @@ console.log(person['phone number'])
 
 ### Creating object methods
 
-the person object has getFullName properties.
+- Methods are actions that can be performed on objects.
+- Methods are stored in properties as function definitions.
+- The getFullName is function inside the person object and we call it an object method.
 
-- The getFullName is function inside the person object and we call it an object method. The _this_ key word refers to the object itself. We can use the word _this_ to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:
+The _this_ key word refers to the object itself. We can use the word _this_ to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:
 
 ```js
 const person = {
