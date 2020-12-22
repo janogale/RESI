@@ -1,7 +1,7 @@
 # Object Exercises
 
    ````js
-   const users = {
+   const users = [
      Alex: {
        email: 'alex@alex.com',
        skills: ['HTML', 'CSS', 'JavaScript'],
@@ -51,7 +51,7 @@
        isLoggedIn: false,
        points: 40
      }
-   }```
+  ]
 
    ````
 1. Find the person who has many skills in the users object.
