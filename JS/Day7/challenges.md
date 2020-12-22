@@ -1,4 +1,4 @@
-# Challengs
+# Object Exercises
 
 1. Find the person who has many skills in the users object.
 1. Count logged in users,count users having greater than equal to 50 points from the following object.
