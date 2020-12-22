@@ -17,7 +17,8 @@ const person = {}
 
 ### Creating an objecting with values
 
-Now, the person object has firstName, lastName, age, location, skills and isMarried properties. The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
+- Now, the person object has firstName, lastName, age, location, skills and isMarried properties.
+- The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
 
 Let us see some examples of object. Each key has a value in the object.
 
