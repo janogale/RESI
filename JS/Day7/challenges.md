@@ -1,8 +1,5 @@
 # Object Exercises
 
-1. Find the person who has many skills in the users object.
-1. Count logged in users,count users having greater than equal to 50 points from the following object.
-
    ````js
    const users = {
      Alex: {
@@ -57,9 +54,9 @@
    }```
 
    ````
-
+1. Find the person who has many skills in the users object.
+1. Count logged in users,count users having greater than equal to 50 points from the following object.
 1. Find people who are MERN stack developer from the users object
 1. Set your name in the users object without modifying the original users object
 1. Get all keys or properties of users object
 1. Get all the values of users object
-1. Use the countries object to print a country name, capital, populations and languages.
