@@ -1,5 +1,13 @@
 # JS Objects - Exercises
 
+Instructions
+
+- create new folder named `objects`
+- inside this folder create two files `index.html` and `challenges.js`
+- link the JS file to html file
+- start solving the challenges inside `challenges.js` file
+- please comment your work to be readible
+
 ## Exercises: 1
 
 1. Create an empty object called `laptop`
