@@ -1,8 +1,8 @@
-# Destructuring and Spread
+# Destructuring Assignment and Spread Operator
 
 Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
 
-### Destructing Arrays
+## Destructing Arrays
 
 ```js
 const numbers = [1, 2, 3];

@@ -4,13 +4,16 @@
 
 ```js
 const constants = [2.72, 3.14, 9.81, 37, 100];
+
 const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
+
 const rectangle = {
   width: 20,
   height: 10,
   area: 200,
   perimeter: 60,
 };
+
 const users = [
   {
     name: "Brook",
@@ -69,7 +72,7 @@ const users = [
 ### Exercises: Level 3
 
 1. Destructure the countries object print name, capital, population and languages of all countries
-2. A junior developer structure student name, skills and score in array of arrays which may not easy to read. Destructure the following array name to name, skills array to skills, scores array to scores, JavaScript score to jsScore and React score to reactScore variable in one line.
+1. A junior developer structure student name, skills and score in array of arrays which may not easy to read. Destructure the following array name to name, skills array to skills, scores array to scores, JavaScript score to jsScore and React score to reactScore variable in one line.
 
 ```js
 const student = ["David", ["HTM", "CSS", "JS", "React"], [98, 85, 90, 95]];
@@ -80,7 +83,7 @@ console.log(name, skills, jsScore, reactScore);
 David (4) ["HTM", "CSS", "JS", "React"] 90 95
 ```
 
-3. Write a function called _convertArrayToObject_ which can convert the array to a structure object.
+1. Write a function called _convertArrayToObject_ which can convert the array to a structure object.
 
 ```js
 const students = [
@@ -102,7 +105,7 @@ console.log(convertArrayToObject(students))[
 ];
 ```
 
-4. Copy the student object to newStudent without mutating the original object. In the new object add the following ?
+1. Copy the student object to newStudent without mutating the original object. In the new object add the following ?
 
 - Add Bootstrap with level 8 to the front end skill sets
 - Add Express with level 9 to the back end skill sets
