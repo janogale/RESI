@@ -109,7 +109,7 @@
 
     ```sh
     [
-    "Somaliland",
+    "SOMALILAND",
     "ALBANIA", 
     "BOLIVIA",
     "CANADA",
