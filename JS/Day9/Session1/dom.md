@@ -20,7 +20,7 @@ In DOM, HTML document is structured as a JavaScript Object. Every HTML element h
 
 Note: Everthing in DOM is refered as NODE
 
----
+<hr />
 
 ## DOM `document` object
 
