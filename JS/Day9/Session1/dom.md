@@ -14,7 +14,7 @@ In DOM, HTML document is structured as a JavaScript Object. Every HTML element h
   - Properties and events of the HTML elements
   - Methods to access the HTML elements
 
-![alt text](\img\dom.gif "Logo Title Text 1")
+![alt text](.\img\dom.gif "Logo Title Text 1")
 
 > Note: According to (DOM), every HTML tag is an object. Nested tags are “children” of the enclosing one. The text inside a tag is an object as well.
 
