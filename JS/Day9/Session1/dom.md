@@ -228,19 +228,19 @@ It value we assign is going to be a string of HTML elements.
   </head>
   <body>
     <div class="wrapper">
-      <h1>Asabeneh Yetayeh challenges in 2020</h1>
-      <h2>30DaysOfJavaScript Challenge</h2>
+      <h1>challenges in 2020</h1>
+      <h2>JavaScript Challenge</h2>
       <ul></ul>
     </div>
     <script>
       const lists = `
-    <li>30DaysOfPython Challenge Done</li>
-            <li>30DaysOfJavaScript Challenge Ongoing</li>
-            <li>30DaysOfReact Challenge Coming</li>
-            <li>30DaysOfFullStack Challenge Coming</li>
-            <li>30DaysOfDataAnalysis Challenge Coming</li>
-            <li>30DaysOfReactNative Challenge Coming</li>
-            <li>30DaysOfMachineLearning Challenge Coming</li>`;
+            <li>Python Challenge Done</li>
+            <li>JavaScript Challenge Ongoing</li>
+            <li>React Challenge Coming</li>
+            <li>FullStack Challenge Coming</li>
+            <li>Data Analysis Challenge Coming</li>
+            <li>React Native Challenge Coming</li>
+            <li>Machine Learning Challenge Coming</li>`;
       const ul = document.querySelector("ul");
       ul.innerHTML = lists;
     </script>
@@ -258,16 +258,16 @@ The innerHTML property can allow us also to remove all the children of a parent 
   </head>
   <body>
     <div class="wrapper">
-      <h1>Asabeneh Yetayeh challenges in 2020</h1>
-      <h2>30DaysOfJavaScript Challenge</h2>
+      <h1>RESI - JavaScript challenges in 2020</h1>
+      <h2>JavaScript Challenge</h2>
       <ul>
-        <li>30DaysOfPython Challenge Done</li>
-        <li>30DaysOfJavaScript Challenge Ongoing</li>
-        <li>30DaysOfReact Challenge Coming</li>
-        <li>30DaysOfFullStack Challenge Coming</li>
-        <li>30DaysOfDataAnalysis Challenge Coming</li>
-        <li>30DaysOfReactNative Challenge Coming</li>
-        <li>30DaysOfMachineLearning Challenge Coming</li>
+        <li>Python Challenge Done</li>
+        <li>JavaScript Challenge Ongoing</li>
+        <li>React Challenge Coming</li>
+        <li>FullStack Challenge Coming</li>
+        <li>DataAnalysis Challenge Coming</li>
+        <li>ReactNative Challenge Coming</li>
+        <li>MachineLearning Challenge Coming</li>
       </ul>
     </div>
     <script>
