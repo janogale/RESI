@@ -116,8 +116,9 @@ console.log(firstTitle); // <h1>First Title</h1>
 
 #### Getting elements by using `querySelector` methods
 
-`. `querySelector`
-- `querySelectorAll`
+1. `querySelector`
+
+1. `querySelectorAll`
 
 - `querySelector()` method returns the first element that matches a specified CSS selector.
 - That means that you can get elements by id, class, tag and all other valid CSS selectors
