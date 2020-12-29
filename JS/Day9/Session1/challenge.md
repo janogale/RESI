@@ -16,13 +16,13 @@
 1. Set text content, id and class to each paragraph
 
 ### Exercise: 3
-
-- Write a function that takes a string as argument
-- The string contains selectors that you can use to access elements on the current page
-- Find the first element that matches the selectors
-- Return the text content of the element
-- name the function as getElementText
-
+1.
+    - Write a function that takes a string as argument
+    - The string contains selectors that you can use to access elements on the current page
+    - Find the first element that matches the selectors
+    - Return the text content of the element
+    - name the function as getElementText
+    
 example
 ```jsx
 // if page contains h1 tag with the following text
@@ -32,3 +32,6 @@ example
 getElementText('#title')   
 
 ```
+
+2.  - Write a function that counts all the HTML tags of the page. 
+    - the function should return the number of tags in the page
