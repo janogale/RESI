@@ -68,7 +68,7 @@ getElementText('#title')
 2.  - Write a function that counts all the HTML tags of the page. 
     - the function should return the number of tags in the page
     
-    ---
+---
     
     
 > Note: Please comment your code so that it can be readable.
