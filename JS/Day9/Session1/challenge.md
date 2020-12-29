@@ -6,8 +6,9 @@
 2. Get get each of the the paragraph using **_document.querySelector('#id')_** and by their id
 3. Get all the p as nodeList using **_document.querySelectorAll(tagname)_** and by their tag name
 4. Loop through the nodeList and get the text content of each paragraph
-5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**
-6. Set id and class attribute for all the paragraphs using different attribute setting methods
+5. Set a text content to paragraph the fourth paragraph,**_I am committed to Master JavaScript_**
+6. set the color of paragraph fourth to green
+7. Set id and class attribute for all the paragraphs using different attribute setting methods
 
 ### Exercise:  2
 
