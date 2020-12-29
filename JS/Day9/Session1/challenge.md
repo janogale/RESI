@@ -25,8 +25,10 @@
 
 example
 ```jsx
+// if page contains h1 tag with the following text
 <h1 id="title"> hello RESI Students</h1>
 
-getElementText('#title')   // returns Hello RESI Students
+// the function should return the text "Hello RESI Students"
+getElementText('#title')   
 
 ```
