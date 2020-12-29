@@ -149,7 +149,7 @@ An attribute is added in the opening tag of HTML which gives additional informat
 
 ```js
 const titles = document.querySelectorAll("h1");
-titles[3].class = "title";
+titles[3].className = "title";
 titles[3].id = "fourth-title";
 ```
 
