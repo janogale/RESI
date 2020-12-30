@@ -192,4 +192,5 @@ example cards
 
 ![World Countries List](./img/countries.png)
 
-**Happy Coding**
+- **Happy Coding**
+
