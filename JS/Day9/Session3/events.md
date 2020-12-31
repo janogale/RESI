@@ -130,7 +130,7 @@ elem.addEventListener(event, handler, { capture: true });
 
 - To remove the handler, `removeEventListener` needs the same phase
 
-## = Event delegation
+## Event delegation
 
 - Capturing and bubbling allow us to implement one of most powerful event handling patterns called **event delegation**
 
