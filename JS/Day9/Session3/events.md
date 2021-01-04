@@ -37,7 +37,7 @@
 ### There are several ways to assign a handler
 
 1. HTML-attribute
-1. DOM property
+1. DOM Element property
 1. addEventListener method
 
 #### HTML Attribute - Inline event handlers — **don't use these**
@@ -130,7 +130,7 @@ elem.addEventListener(event, handler, { capture: true });
 
 - To remove the handler, `removeEventListener` needs the same phase
 
-## = Event delegation
+## Event delegation
 
 - Capturing and bubbling allow us to implement one of most powerful event handling patterns called **event delegation**
 
