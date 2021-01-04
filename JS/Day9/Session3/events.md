@@ -37,7 +37,7 @@
 ### There are several ways to assign a handler
 
 1. HTML-attribute
-1. DOM property
+1. DOM Element property
 1. addEventListener method
 
 #### HTML Attribute - Inline event handlers — **don't use these**
