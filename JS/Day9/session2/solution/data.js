@@ -4,6 +4,7 @@ const users = [
     name: "Ahmed Farah",
     username: "afarah",
     email: "afarah@gmail.com",
+    nationality: "Kenyan",
     address: {
       street: "Daruuraha",
       city: "Hargeisa",
@@ -36,6 +37,7 @@ const users = [
     name: "Mohamed Abdi",
     username: "mabdi",
     email: "mabdi@gmailcom",
+    nationality: "Ethiopia",
     address: {
       street: "Pepsi Area",
       city: "Hargeisa",
@@ -160,3 +162,61 @@ const users = [
     },
   },
 ];
+
+
+//Write a function called convertArrayToObject which can convert the array to a structure object.
+const students = [
+  ["David", ["HTM", "CSS", "JS", "React"], [98, 85, 90, 95]],
+  ["John", ["HTM", "CSS", "JS", "React"], [85, 80, 85, 80]],
+];
+
+console.log(convertArrayToObject(students))
+
+
+
+function convertArrayToObject(arr){
+  let obj = [];
+
+  for(let [name, skills, scores] of arr){
+
+   obj.push( {
+      name: name,
+      skills: skills,
+      score: scores
+    })
+
+  }
+
+  return obj;
+}
+
+
+
+console.log( convertArrayToObject(students) )
+
+
+
+const student = {
+  name: "David",
+  age: 25,
+  skills: {
+    frontEnd: [
+      { skill: "HTML", level: 10 },
+      { skill: "CSS", level: 8 },
+      { skill: "JS", level: 8 },
+      { skill: "React", level: 9 },
+    ],
+    backEnd: [
+      { skill: "Node", level: 7 },
+      { skill: "GraphQL", level: 8 },
+    ],
+    dataBase: [{ skill: "MongoDB", level: 7.5 }],
+    dataScience: ["Python", "R", "D3.js"],
+  },
+};
+
+
+
+const newStudent = Object.assign({}, student, {})
+
+
