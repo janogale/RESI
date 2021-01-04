@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM - Events</title>
+    <script async src="./app.js"></script>
+
+    <style>
+      #section {
+        background: rgba(255, 0, 0, 0.198);
+      }
+      .hight {
+        background: lightskyblue !important;
+      }
+
+      li span {
+        font-size: 1.2rem;
+        color: red;
+        padding-left: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="background: lightblue">
+    <h1 id="title">DOM Events</h1>
+    <h2>Event Handlers</h2>
+    <ul>
+      <li>HTML Attribute</li>
+      <li>DOM Property</li>
+      <li>addEventListener method</li>
+    </ul>
+    <hr />
+    <div>
+      <a id="link" href="https://google.com" target="_blank">Visit Google</a>
+    </div>
+    <button onclick="console.log(this.textContent)">CLick Me</button>
+    <form action="">
+      <p>Username <input type="text" id="username" /></p>
+      <p>Password <input type="text" id="password" /></p>
+      <input type="submit" />
+    </form>
+
+    <section id="section">
+      <h2>Section title</h2>
+      <div class="container">
+        <h3>Section sub-title</h3>
+        <ul id="list">
+          <li id="f1">list 1 <span>X</span></li>
+          <li id="f2">list 2 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3 <span>X</span></li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 3</li>
+          <li>list 301</li>
+          <li>list 302</li>
+          <li>list 303</li>
+          <li>list 304</li>
+          
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
