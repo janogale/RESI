@@ -52,6 +52,8 @@ const currentUser = localStorage.clear();
 
 `Note: Name/value pairs are always stored as strings. Remember to convert them to another format when needed!`
 
+---
+
 ## The sessionStorage Object
 
 - The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session.
