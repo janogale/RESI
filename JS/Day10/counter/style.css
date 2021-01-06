@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: darkcyan;
+}
+.container {
+  width: 80%;
+  height: 80%;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-size: 4.5rem;
+}
+
+.container button {
+  font-size: 1.5rem;
+  padding: 5px 15px;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.container button:hover {
+  background: darkcyan;
+  color: #ccc;
+}
