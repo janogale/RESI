@@ -1,0 +1,24 @@
+body {
+  background: #090;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background: #ccc;
+  padding: 10px 30px;
+
+  border-radius: 10px;
+}
+
+.danger {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.hidden {
+    display: none;
+}
