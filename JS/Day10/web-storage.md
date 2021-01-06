@@ -54,7 +54,7 @@ const currentUser = localStorage.clear();
 
 ---
 
-## The sessionStorage Object
+## The **`sessionStorage`** Object
 
 - The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session.
 - The data is deleted when the user closes the specific browser tab.
