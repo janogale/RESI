@@ -202,4 +202,4 @@ export default months = [
 
 when importing defaul export, the name can be anything, but it is good practise to use the actual name of the module.
 
-- import x from "module"
+`import x from "module"`
