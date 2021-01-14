@@ -172,6 +172,7 @@ export { getElement as getTag, name as fullName };
 
 - Modules provide a special `export default` to make the “one thing per module” way look better.
 - There may be only one export default per file.
+- Default exports are useful to export only a single object, function, variable. During the `import`, we can use any name to import.
 
 default export
 
@@ -202,4 +203,4 @@ export default months = [
 
 when importing defaul export, the name can be anything, but it is good practise to use the actual name of the module.
 
-- import x from "module"
+`import x from "module"`
