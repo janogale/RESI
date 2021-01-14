@@ -79,7 +79,7 @@ The Top Level Domain (TLD) determines the type of website you want to run. This 
 
   - A dedicated hosting service provides dedicated resources (server, hardware, OS, etc.) to its clients without sharing them with anyone else. This gives a lot of flexibility to setup your website the way you want.
 
-    ![Hosting types](/img/hosting.png)
+    ![Hosting types](./img/hosting.png)
 
 - **`VPS Hosting`**
 
@@ -122,7 +122,7 @@ The Top Level Domain (TLD) determines the type of website you want to run. This 
 
 **`Static Website:`** In Static Websites, Web pages are returned by the server which are **`Dynamic Websites`** In Dynamic Websites, Web pages are returned by the server which are processed during runtime means they are not prebuilt web pages but they are built during runtime according to the user’s demand with the help of server-side scripting languages such as PHP, Node.js, ASP.NET and many more supported by the server.
 
-![Web types](/img/webtypes.jpg)
+![Web types](./img/webtypes.jpg)
 
 ## FTP Access - upload files
 
