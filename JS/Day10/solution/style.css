@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: cadetblue;
+  height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.form {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.form input {
+  height: 40px;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+.form input[type="submit"] {
+  background: rgb(25, 177, 25);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sub-title {
+  margin-bottom: 20px;
+}
+
+.content {
+  min-width: 450px;
+  width: 100%;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  background: #0b90b1;
+  color: #fff;
+  padding: 10px;
+}
+
+.content-header span {
+  font-weight: 800;
+}
+
+.content-list {
+  margin-top: 10px;
+}
+
+.content-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.content-item a {
+  flex-basis: 40%;
+}
+
+.content-item .initial {
+  background-color: #2bff00;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.delete {
+  font-size: 1.3rem;
+  color: red;
+  cursor: pointer;
+  background-color: #ff000023;
+  padding: 5px;
+}
+
+.delete:hover {
+  background: red;
+  color: #fff;
+}
