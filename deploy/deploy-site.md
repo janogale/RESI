@@ -5,15 +5,15 @@ There are more of ways to deploy sites.
 
 ## What You Need to deploy your Website
 
-1. Domain name - Domain Registrar
-2. Choosing your Domain (TLD)
-3. Domain Registrar
-4. Hosting Service
-5. Types of Hosting Services
-6. Web Hosting Control Panel
-7. Types of Website for Hosting
-8. FTP Access
-9. Configuring DNS
+1. **Domain name - Domain Registrar**
+2. **Choosing your Domain (TLD)**
+3. **Domain Registrar**
+4. **Hosting Service**
+5. **Types of Hosting Services**
+6. **Web Hosting Control Panel**
+7. **Types of Website for Hosting**
+8. **FTP Access**
+9. **Configuring DNS**
 
 ## Domain name
 
@@ -65,9 +65,9 @@ The Top Level Domain (TLD) determines the type of website you want to run. This 
 
 ## Hosting Service
 
-- The next step is to find a hosting service on which to deploy and launch your website.
-
 - Hosting the place where you put your website files
+
+- The next step is to find a hosting service on which to deploy and launch your website.
 
 ### Types of Hosting Services
 
